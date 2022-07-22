@@ -8,19 +8,15 @@ public class Problem_3 : MonoBehaviour
     void Start()
     {
         Printer();
+        Printer("Game Dev is the best!");
     }
 
     //Create a void function called Printer that takes in one string parameter. 
     //Give this parameter a default value of "This is a default value"
     //Make the function print out the parameter. 
 
-    void Printer(string lol)
+    void Printer(string Lbozo = "This is a default value")
     {
-        print(lol);
+        print(Lbozo);
     }
-    void Printer()
-    {
-        print("Game Dev is the best!");
-    }
-
 }
